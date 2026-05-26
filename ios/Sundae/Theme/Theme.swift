@@ -1,14 +1,14 @@
 import SwiftUI
 
 enum Theme {
-    static let background = Color(red: 0.055, green: 0.059, blue: 0.051)   // #0E0F0D
-    static let surface    = Color(red: 0.102, green: 0.110, blue: 0.094)   // #1A1C18
+    static let background = TenXAppDesignSystem.background
+    static let surface    = TenXAppDesignSystem.surface
     static let surfaceHi  = Color(red: 0.145, green: 0.157, blue: 0.137)   // a touch lighter
     static let stroke     = Color.white.opacity(0.06)
     static let text       = Color(red: 0.961, green: 0.961, blue: 0.949)   // #F5F5F4
     static let textDim    = Color(red: 0.961, green: 0.961, blue: 0.949).opacity(0.55)
     static let textFaint  = Color(red: 0.961, green: 0.961, blue: 0.949).opacity(0.28)
-    static let accent     = Color(red: 0.776, green: 0.957, blue: 0.196)   // #C6F432
+    static let accent     = TenXAppDesignSystem.accent
     static let accentInk  = Color(red: 0.055, green: 0.059, blue: 0.051)
 
     // Macro semantic colors (kept within the palette: lime accent + neutral tints)

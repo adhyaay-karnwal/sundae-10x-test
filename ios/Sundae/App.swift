@@ -7,6 +7,7 @@ struct SundaeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .tenXAppDesignSystem()
                 .environment(store)
                 .preferredColorScheme(.dark)
                 .tint(Theme.accent)
