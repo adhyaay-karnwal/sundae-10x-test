@@ -1,0 +1,11 @@
+- [ ] Project scaffold, theme tokens (Lifter Charcoal), and SwiftData models
+- [ ] Seed recipe library (~30-50 recipes) with ingredients, aisles, macros
+- [ ] Personalization-quiz onboarding → first plan reveal
+- [ ] Today / This Week home with macro rings and Prep Day CTA
+- [ ] Planner grid + recipe browse/swap sheet
+- [ ] Recipe detail with serving scaler and live macro recalculation
+- [ ] Deterministic plan generator (macros-closest-fit algorithm)
+- [ ] Auto grocery list, aisle-grouped, with pantry subtraction
+- [ ] Prep Day batched cook schedule with timers
+- [ ] Profile / Goals: targets, diet, allergies, prep day, containers, pantry
+- [ ] Polish pass, empty states, and App Store-ready screenshots
